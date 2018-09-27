@@ -25,8 +25,6 @@
     
     NSString * userName;
     NSString * userPhoneNumber;
-    
-    
     UILabel * nameLabel;
     UILabel * phoneLabel;
     
@@ -38,10 +36,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self getSystemAddressBook];
-    
-    
-    
-    
+    NSLog(@"viewDidLoad");
 }
 - (void)getSystemAddressBook
 {
